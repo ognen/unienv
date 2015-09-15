@@ -44,6 +44,7 @@ various platforms:
  doc/
  .ruby-version                                    # because of cocoapods
  .java-version                                    # android
+ .maven-version                                   # which version of maven to use
  .android-verson                                  # android API level
  .node-version                                    # for JS
  ```
