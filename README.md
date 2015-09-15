@@ -1,15 +1,15 @@
 # unienv
 
 The aim of this project is to simplify the development environment setup for projects that span across multiple
-development environemnts (ruby, android, ios, etc...). The typical case for such projects are mobile hybrid projects
-thta span accross JS, iOS, android SDKs.
+development environemnts (ruby, android, ios, etc...). The typical case for such projects are mobile hybrids
+that span accross JS, iOS, android SDKs.
 
 `unienv` doesn't replace existing *env developer environment managers but rather it delegates to them and uses 
 their configuration files (.ruby-version, etc.). The task of `unienv` is to insulate a developer from 
 the intricacies of all the development environments involved in a source tree and letting them focus only on the 
 issues they are an expert on.
 
-# Deveolpment Environment Initialization
+# Development Environment Initialization
 
 A developer using `unienv` has only to:
 
@@ -17,7 +17,7 @@ A developer using `unienv` has only to:
     $ git clone http://example.com/project.git
     $ unienv
 
-To get this environment ready. This will, for example:
+To get this environment ready and start working. This will, for example:
 
 * if there's a `.ruby-version` file:
   * setup `rbenv` if not already present
@@ -44,6 +44,6 @@ various platforms:
  doc/
  .ruby-version                                    # because of cocoapods
  .java-version                                    # android
- .android-level                                   # android API level
+ .android-verson                                  # android API level
  .node-version                                    # for JS
  ```
