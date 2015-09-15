@@ -17,7 +17,7 @@ A developer using `unienv` has only to:
     $ git clone http://example.com/project.git
     $ unienv
 
-To get this environment ready. This will:
+To get this environment ready. This will, for example:
 
 * if there's a `.ruby-version` file:
   * setup `rbenv` if not already present
@@ -28,7 +28,22 @@ To get this environment ready. This will:
 * ...
 * same for Java using `jenv`
 * same for Node using `nenv`
-* same for Pythong using `pyenv` 
+* same for Python using `pyenv` 
 * same for Andorid using the andoid tools sdk
 * same for iOS using `carthage` and `cocoapods`
  
+# Typical Project Source Tree
+
+A typical project source tree doesn't exibit any trait of using `unienv`. Intead it hosts files that target the
+various platforms:
+
+```
+ app/
+ native/ios
+ native/android
+ doc/
+ .ruby-version                                    # because of cocoapods
+ .java-version                                    # android
+ .android-level                                   # android API level
+ .node-version                                    # for JS
+ ```
