@@ -43,8 +43,11 @@ various platforms:
  native/android
  doc/
  .ruby-version                                    # because of cocoapods
+ Gemfile                                          # listing the exact cocoapods version
  .java-version                                    # android
  .maven-version                                   # which version of maven to use
+ pom.xml                                          # maven dependencies
  .android-verson                                  # android API level
- .node-version                                    # for JS
+ .node-version                                    # node version used
+ package.json                                     # npm packages
  ```
