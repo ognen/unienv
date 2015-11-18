@@ -9,6 +9,8 @@ their configuration files (.ruby-version, etc.). The task of `unienv` is to insu
 the intricacies of all the development environments involved in a source tree and letting them focus only on the 
 issues they are an expert on.
 
+On OS X, `unienv` also makes sure that the your `*env` environment is effective outside of the terminal. This is especially important when wrting `Xcode` build phase scripts.
+
 # Development Environment Initialization
 
 A developer using `unienv` has only to:
